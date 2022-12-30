@@ -1,9 +1,9 @@
-import Admin from "./components/admin"
+import Home from "./components/home"
 import {Route,Routes} from 'react-router-dom'
 function App() {
- return (
+return (
   <Routes>
-  <Route path="/" element={<Admin/>}/>
+  <Route path="/" element={<Home/>}/>
 </Routes>
   );
 }

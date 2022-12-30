@@ -1,12 +1,8 @@
 import React from "react";
-import { Form, Button, Container } from "react-bootstrap";
-import { MdLogin } from "react-icons/md";
-import {BsReception3, BsFillFilePersonFill,BsMailbox,BsFillTelephoneFill, BsBook} from "react-icons/bs";
-import { AiTwotoneMail } from "react-icons/ai";
-function Admin() {
+function Home() {
  return (
     <div>
-      <h1 className="text-center text-primary mb-4">MESS IS MESS?</h1>
+      <h1 className="text-center text-primary mb-4 mt-3">MESS IS MESS?</h1>
       <div className="col-sm-8 container-fluid">
               <nav className="nav-bar navbar-expand-lg navbar-light bg-light px-md-5 py-md-3">
                 <a className="navbar-brand text-center" href="/"> <strong>
@@ -95,4 +91,4 @@ function Admin() {
   );
 }
 
-export default Admin;
+export default Home;
